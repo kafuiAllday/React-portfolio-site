@@ -5,6 +5,14 @@
     background-color: rgb(243,243,243);
 }
 
+.contact hr{
+    width: 5%;
+   height: .5rem;
+   border: 0;
+   background-color: midnightblue;
+   position: relative;
+   margin-top: 10px;
+}
 
 .contact h1{
     color: midnightblue;

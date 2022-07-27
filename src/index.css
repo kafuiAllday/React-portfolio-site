@@ -94,6 +94,12 @@ header{
     padding-top: 50px;
     text-transform: uppercase;
  }
+ #Projects hr{
+   width: 5%;
+   height: .25rem;
+   background-color: brown;
+   border: 0;
+ }
  
  .proj-container{
     width: 100%;
@@ -196,6 +202,7 @@ hr{
         margin-top: 10px;
 
      }
+    
      .cta_butt{
         display: inline-block;
         width: max-content;
@@ -294,6 +301,7 @@ button .contact_btn{
         letter-spacing: 1.1px;
         
      }
+     #Projects hr{display: none;}
 
      button{
         padding: 0.6rem;
