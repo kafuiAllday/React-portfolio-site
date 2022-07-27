@@ -12,8 +12,7 @@ function Projects() {
           </div>
           <h3>Restaurant website</h3>
           <div className="cta_buttons">
-            <a href="">Github</a>
-            <a href="">View</a>
+            <a href="">View Project</a>
           </div>       
         </article>
         <article className="portfolio_item">
@@ -22,8 +21,7 @@ function Projects() {
           </div>
           <h3>Restaurant website</h3>
           <div className="cta_buttons">
-            <a href="">Github</a>
-            <a href="">View</a>
+            <a href="">View Project</a>
           </div>
         </article>
         <article className="portfolio_item">
@@ -32,9 +30,7 @@ function Projects() {
           </div>
           <h3>Restaurant website</h3>
           <div className="cta_buttons">
-            <a href="">Github</a>
-            <a href="">View</a>
-            
+            <a href="">View Project</a>
           </div>
               
         </article>  

@@ -2,22 +2,26 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap:2rem;
-  
+  background-color: white;
   width: 75%;
   margin: 40px auto;
+  height: auto;
+  padding: 2rem;
 
 }
 section{
-    background-color: rgb(243,243,243);
-    margin: 0 auto;
+    background-color: whitesmoke;
+    height: max-content;
+    
 }
 .portfolio_item{
     width: 400px;
     height: 400px;
     position: relative;
-    background-color: rgb(243,243,243);
+    background-color: whitesmoke;
     box-shadow: -15px 7px 30px rgba(0,0,0,0.2);
     border-radius: 1rem;
+    padding: 1rem;
 }
 .img_cont{
     width: 100%;
@@ -31,8 +35,6 @@ section{
  
 }
 
-
-
  img{
     width: 100%;
     height: 100%;
@@ -42,30 +44,30 @@ section{
 }
 .portfolio_item h3{
     position: absolute;
-    bottom: 25%;
+    margin: 1rem 0;
     color: midnightblue;
     letter-spacing: .2rem;
+    font-weight: 500;
+    font-size: 1.4rem;
+    
+}
+.portfolio_item a:hover{
+    color: whitesmoke;
+    background-image: linear-gradient(to bottom right, midnightblue,deepskyblue);
+    border: 0;
     
 }
 
 
-    
-.cta_buttons{
-    padding-top: 10px;
-    position: absolute;
-    bottom: 40px;
-    display: flex;
-    gap: 1rem;
-    
-}
-.cta_buttons > a{
+.portfolio_item a{
     text-decoration: none;
-    padding: 10px 17px;
-    border-radius: 5px;
+    padding: .8rem 1.4rem;
+    border-radius: 3px;
     color: midnightblue;
-    border: 1px solid ;
+    border: 1px solid deepskyblue;
     background-color:whitesmoke;
-    font-size: 1rem;
-
+    font-size: 1.1rem;
+    position: absolute;
+    margin: 4rem 0;
 
 }
