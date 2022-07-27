@@ -1,0 +1,29 @@
+.icons{
+    text-align: center;
+    background-color: #444;
+    
+
+}
+.copyright_icon{
+    text-align: center;
+    background-color: #444;
+    font-size: 1rem;
+    padding: 0.8rem;
+    letter-spacing: 0.1rem;
+    color: whitesmoke;
+    
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    padding-top: 1.5rem; 
+
+}
+.icons a{
+    font-size: 1.5rem;
+    background-color: #666;
+    padding: .3rem .5rem;
+    border-radius: 1.2rem;
+    color: whitesmoke;
+}

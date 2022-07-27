@@ -1,0 +1,101 @@
+.contact{
+    width: 100%;
+    text-align: center;
+    height: 60vh;
+    background-color: rgb(243,243,243);
+}
+
+
+.contact h1{
+    color: midnightblue;
+    font-size: 2.5rem;
+    margin: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.contacts{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 58%;
+    gap: 12;
+}
+.socials{
+    display: flex;
+    flex-direction: column;
+    padding: .6rem;
+
+}
+.Wa{
+    border: 1px solid whitesmoke;
+    padding: 1.3rem;
+    border-radius: 1rem;
+    width: 300px;
+    margin: 0 auto;
+    box-shadow: 0 0 8px rgba(0,0,0,0.3);
+    color: midnightblue;
+    
+}
+.Wa h3{
+    letter-spacing: .11rem;
+}
+
+
+.Mail{
+    border: 1px solid whitesmoke;
+    width: 300px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.3);
+    margin: 15px auto;
+    padding: 1.3rem;
+    color: midnightblue;
+    font-size: 1.1rem;
+    border-radius: 1rem;
+    
+}
+.Mail h3{
+    letter-spacing: .11rem;
+}
+.Mail h4{
+    letter-spacing: .12rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+}
+input,textarea{
+    padding: .6rem;
+    border-radius: 0.7rem;
+    font-size: 1.2rem;
+    border: 1px solid rgba(0,0,0,0.3);
+    outline: grey;
+    resize: none;
+}
+.contact_btn{
+    background-color: skyblue;
+    width: max-content;
+    display: block;
+    padding: 0.9rem 1.5rem;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: .4rem;
+    color: midnightblue;
+    font-size: 1.1rem;
+
+}
+.Wa .wsap{
+    font-size: 2.2rem;
+    color: green; 
+
+}
+
+.Wa a{
+    text-decoration: none;
+    color: midnightblue;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+.Mail .email{
+    font-size: 2.5rem;
+}
+
