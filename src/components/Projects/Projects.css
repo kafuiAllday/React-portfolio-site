@@ -17,11 +17,11 @@ section{
 .portfolio_item{
     width: 400px;
     height: 400px;
-    position: relative;
     background-color: whitesmoke;
     box-shadow: -15px 7px 30px rgba(0,0,0,0.2);
     border-radius: 1rem;
     padding: 1rem;
+    position: relative;
 }
 .img_cont{
     width: 100%;
@@ -68,6 +68,30 @@ section{
     background-color:whitesmoke;
     font-size: 1.1rem;
     position: absolute;
-    margin: 4rem 0;
-
+    bottom: 1rem;
+    
 }
+
+
+
+
+
+
+/*button {
+    background-image: linear-gradient(to bottom right, midnightblue,deepskyblue);
+    padding: .8rem 1.4rem;
+    position: absolute;
+    margin: 4rem 10.5rem;
+    font-size: 1.1rem;
+    border-radius: 3px;
+    color: white;
+    border: none;    
+  
+} */
+
+
+
+
+
+    
+    

@@ -29,7 +29,7 @@ function Contact() {
             <input type='email' placeholder='Email' name='email' required/>
             <textarea name='message' rows='7' placeholder='Your message' required>
             </textarea>
-            <button type='submit' className='contact_btn'>Send message</button>  
+            <button type='submit' className='contact_btn'><a href='mail.kay4rikki@gmil.com'>Send message</a></button>  
           </form>
 
           </div> 

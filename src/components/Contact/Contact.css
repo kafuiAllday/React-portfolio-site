@@ -5,14 +5,6 @@
     background-color: rgb(243,243,243);
 }
 
-.contact hr{
-    width: 5%;
-   height: .5rem;
-   border: 0;
-   background-color: midnightblue;
-   position: relative;
-   margin-top: 10px;
-}
 
 .contact h1{
     color: midnightblue;
@@ -81,13 +73,13 @@ input,textarea{
     resize: none;
 }
 .contact_btn{
-    background-color: skyblue;
+    background-color: midnightblue;
     width: max-content;
     display: block;
     padding: 0.9rem 1.5rem;
     border: 1px solid rgba(0,0,0,0.3);
     border-radius: .4rem;
-    color: midnightblue;
+    color: white;
     font-size: 1.1rem;
 
 }
@@ -105,5 +97,18 @@ input,textarea{
 }
 .Mail .email{
     font-size: 2.5rem;
+}
+.contact_btn a{
+    text-decoration: none;
+    color: white;
+}
+.contact_btn a:hover{
+    color: midnightblue;
+
+}
+.contact_btn:hover{
+    background-color: deepskyblue;
+    color: midnightblue;
+
 }
 
