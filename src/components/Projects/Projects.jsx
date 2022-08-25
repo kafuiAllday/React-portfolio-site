@@ -13,7 +13,7 @@ function Projects() {
           </div>
           <h3>Restaurant website</h3>         
             <a className='first_link' href="">View Project</a>
-            
+          
         </article>
         <article className="portfolio_item">
           <div className="img_cont">

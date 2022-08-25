@@ -106,7 +106,7 @@ header{
    height: .25rem;
    background-color: brown;
    border: 0;
-   margin-top: .2rem;
+   margin-top: .5rem;
  }
  
  .proj-container{
@@ -145,32 +145,53 @@ header{
     color: midnightblue;
  }
  .about{
-   width: 100%;
-   height: 61vh;
-   padding: 90px;
+   width: 80%;
+   height: auto;
    text-align: center;
-   background-color: rgb(243,243,243);
-   margin-top: 8%;
+   margin: auto;
+   background-color: white;
+   padding-bottom: 3rem;
 }
+
+
 .about h1{
    color: midnightblue;
    font-size: 2.5rem;
    text-transform: uppercase;
-   letter-spacing: 3px;
+   letter-spacing: .5rem;
    font-weight: 300;
+   margin-bottom: 2rem;
 }
 hr{
    width: 87%;
    margin: 0 auto;
 }
+.mypix{
+   height: 25rem;
+   width: 25rem;
+   background-color: lightblue;
+   background-image: url();
+}
+.mycontainer{
+   background-color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   background-color: #f8f8f8;
+   box-shadow: 0 5px 15px rgb(0,0,0,0.15);
+}
 .about-text{
-   width: 80%;
-   margin: 0 auto;
-   font-size: 1.4rem;
-   padding-top: 30px;
-   letter-spacing: 1.5px;
+   width: 40%;
+   height: auto;
+   margin: 3.5rem;
+   font-size: 1.3rem;
+   letter-spacing: .11rem;
    text-align: left;
    color: midnightblue;
+   background-color: white;
+   line-height: 1.9rem;
+   background-color: #f8f8f8;
 }
 .nav1{
    background-color: rgba(0,0,0,0.15);
@@ -230,13 +251,13 @@ hr{
      }
      .about{
       padding: 10px;
-      text-align: center;   
+      text-align: center;
+   
  }
- .about-text{
-   width: 80%;
-   margin: 0 auto;
+.about-text{
+   width: 50%;
    font-size: 1.0rem;
-   padding-top: 10px;
+   margin-top: 1.5rem;
    text-align: left;
    color: midnightblue;
    
@@ -245,6 +266,8 @@ hr{
    font-size: 2.0rem;
    font-weight: 400;
 }
+
+
 .nav1{
    display: block;
    margin: 0 27%;
