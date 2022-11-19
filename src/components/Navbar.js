@@ -15,10 +15,10 @@ export default function Navbar(){
                 <p>EKD</p>
                 <div className='nav1'>
                     <ul>
-                        <li><a href='#' className={activeClass === '#' ? 'active' :''} ><AiOutlineHome/></a></li>
-                        <li><a href='#Projects' onClick={()=>setActiveClass(activeClass === '#Project')} className={activeClass ==='#Project' ? 'active' :''}><MdWorkOutline/></a></li>
-                        <li><a href='#About' onClick={()=>setActiveClass(activeClass === '#About')} className={activeClass === '#About' ? 'active' : ''}><BiUserCircle/></a></li>
-                        <li><a href='#Contact' onClick={()=>setActiveClass(activeClass ==='#Contact')} className={activeClass === '#Contact' ? 'active' : ''}><TbMessage/></a></li>
+                        <li><a href='#' onClick={()=>setActiveClass('#')} className={activeClass === '#' ? 'active' :''} ><AiOutlineHome/></a></li>
+                        <li><a href='#Projects' onClick={()=>setActiveClass('#Project')} className={activeClass ==='#Project' ? 'active' :''}><MdWorkOutline/></a></li>
+                        <li><a href='#About' onClick={()=>setActiveClass('#About')} className={activeClass === '#About' ? 'active' : ''}><BiUserCircle/></a></li>
+                        <li><a href='#Contact' onClick={()=>setActiveClass('#Contact')} className={activeClass === '#Contact' ? 'active' : ''}><TbMessage/></a></li>
                     </ul>
                 </div>
 

@@ -63,6 +63,7 @@ header{
     background-image: linear-gradient(midnightblue,deepskyblue);
 
 }
+
 .intro-text{
     width: 80%;
     height: 80vh;
@@ -70,7 +71,9 @@ header{
     justify-content: center;
     align-items: left;
     flex-direction: column;
+    position: relative;
 }
+
 .intro-text h1{
     color: midnightblue;
     margin-left: 5rem;
@@ -117,7 +120,37 @@ header{
     flex-wrap: wrap;
     margin-top: 40px;
  }
- .cta_butt{
+ button.hero-butt{
+   background-color: midnightblue;
+   display: inline-block;
+   width: max-content;
+   padding: 1.1rem;
+   border: 1px solid midnightblue;
+   border-radius: 5px;
+   position: absolute;
+   bottom: 28%;
+   left: 4.5%;
+   
+ }
+ button.hero-butt a{
+   color:#fff;
+   text-decoration: none;
+   font-size: 1.5rem;
+   display: inline-block;
+   
+
+ }
+ button.hero-butt:hover{
+   background-color: deepskyblue;
+   border: 0;
+ }
+ button.hero-butt a:hover{
+   color: midnightblue;
+ }
+
+
+ 
+ /*.cta_butt a:link{
     display: inline-block;
     width: max-content;
     padding: 1.1rem;
@@ -130,14 +163,14 @@ header{
     bottom: 30%;
     font-size: 1.5rem;
     font-weight: 400;
- }
- button:hover{
+ }*/
+ /*button:hover{
     background-color: midnightblue;
     color: deepskyblue;
     cursor: pointer;
     border: 1px solid deepskyblue;
     
- }
+ }*/
  section > h1{
     font-size: 30px;
     padding-top: 50px;
@@ -170,28 +203,27 @@ hr{
    height: 25rem;
    width: 25rem;
    background-color: lightblue;
-   background-image: url();
+   
 }
 .mycontainer{
-   background-color: white;
    display: flex;
    justify-content: center;
    align-items: center;
    flex-wrap: wrap;
-   background-color: #f8f8f8;
-   box-shadow: 0 5px 15px rgb(0,0,0,0.15);
+   background-color: rgb(243,243,243);
+   box-shadow: 0 5px 15px rgb(0,0,0,0.3);
 }
 .about-text{
    width: 40%;
    height: auto;
    margin: 3.5rem;
    font-size: 1.3rem;
+   font-weight: 500;
    letter-spacing: .11rem;
    text-align: left;
    color: midnightblue;
-   background-color: white;
+   background-color: rgb(243,243,243);
    line-height: 1.9rem;
-   background-color: #f8f8f8;
 }
 .nav1{
    background-color: rgba(0,0,0,0.15);
@@ -207,17 +239,17 @@ hr{
    background-color: transparent;
    font-size: 1.6rem;
 }
-.cta_butt a{
+/*.cta_butt a{
    color: whitesmoke;
    text-decoration: none;
-   color: whitesmoke;
+   display: inline-block;
    font-weight: 400;
    
 }
 .cta_butt a:hover{
    color: whitesmoke;
    background-color: midnightblue;
-}
+}*/
  
 
 @media(max-width: 1024px){
@@ -230,6 +262,9 @@ hr{
         letter-spacing: 2px;
         margin-top: 10px;
 
+     }
+     .intro-text{
+      margin: auto;
      }
     
      .cta_butt{
@@ -244,6 +279,7 @@ hr{
         font-size: 1.3rem;
         left: 5rem;
         bottom: 18%;
+        
        
      }
      .portfolio_container{
@@ -306,7 +342,7 @@ input,textarea{
 }
 button .contact_btn{
    width: max-content;
-   display: block;
+   display: inline-block;
    font-size: 1rem;
    position: absolute;
    
@@ -322,6 +358,9 @@ button .contact_btn{
 
 
 @media(max-width: 600px){
+   .intro-text{
+      text-align: center;
+   }
     .intro-text h1{
         font-size: 1.4rem;
         letter-spacing: 1.3px; 
@@ -337,7 +376,7 @@ button .contact_btn{
      button{
         padding: 0.6rem;
         border-radius: 2.5px;
-        bottom: 30%;
+        /*bottom: 30%;*/
        
      }
      .portfolio_container{
@@ -351,7 +390,7 @@ button .contact_btn{
    font-size: 0.75rem;
    padding-top: 1px;
    text-align: left;
-   letter-spacing: ;
+   
 }
 .about h1{
    font-size: 1.7rem;

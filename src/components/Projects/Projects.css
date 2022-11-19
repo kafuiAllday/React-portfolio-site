@@ -69,6 +69,7 @@ section{
     font-size: 1.1rem;
     position: absolute;
     bottom: 1rem;
+    display: inline-block;
     
 }
 
