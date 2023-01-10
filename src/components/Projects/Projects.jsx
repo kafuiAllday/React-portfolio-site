@@ -3,6 +3,7 @@ import IMG from '../../Assets/food2.jpg'
 import IMG1 from '../../Assets/money2.jpg'
 import IMG2 from '../../Assets/quiz.jpg'
 import IMG3 from '../../Assets/alora.jpg'
+import IMG4 from '../../Assets/Stopwatch.jpg'
 
 
 const data = [
@@ -30,6 +31,13 @@ const data = [
     id:4,
     Image: IMG3,
     title: 'Fitness club',
+    links:'',
+    
+  },
+  {
+    id:5,
+    Image: IMG4,
+    title: 'Stopwatch',
     links:'',
     
   }
