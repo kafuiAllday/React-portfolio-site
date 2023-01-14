@@ -10,8 +10,8 @@ const data = [
   {
     id:1,
     Image: IMG,
-    title: 'Restaurant website',
-    links:'',
+    title: 'Food website',
+    links:'https://foodie-gsoplezs0-kafuiallday.vercel.app/',
   },
   {
     id:2,
@@ -24,21 +24,21 @@ const data = [
     id:3,
     Image: IMG2,
     title: 'Quiz App',
-    links:'',
+    links:'https://quizy-jdcqayvl8-kafuiallday.vercel.app/',
     
   },
   {
     id:4,
     Image: IMG3,
     title: 'Fitness club',
-    links:'',
-    
+    links:'https://alwayafitness-jl2m5hwcu-kafuiallday.vercel.app',
+
   },
   {
     id:5,
     Image: IMG4,
     title: 'Stopwatch',
-    links:'',
+    links:'https://stopwatch-4fmn-mi0fy4opw-kafuiallday.vercel.app/',
     
   }
   
@@ -56,10 +56,10 @@ function Projects() {
             <div className="img_cont">
               <img src={Image} alt={title} />
             </div>
-            <h3>{title}</h3>         
-              <a className='first_link' href={links}  target='_blank' >View Project</a>
-              
+            <h3>{title}</h3>   
             
+              <a className='first_link' href={links}  target='_blank' >View Project</a>
+          
           </article>
           )
         })
@@ -71,3 +71,5 @@ function Projects() {
 }
 
 export default Projects
+
+

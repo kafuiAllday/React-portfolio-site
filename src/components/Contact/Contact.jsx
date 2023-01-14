@@ -1,7 +1,7 @@
 import './Contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
 import {BsWhatsapp} from 'react-icons/bs'
-
+import {GoMarkGithub} from 'react-icons/go'
 
 function Contact() {
   return (
@@ -11,11 +11,12 @@ function Contact() {
         
         <div className='contacts'>
           <div className='socials'>
-          <div className='Wa'>
-            <BsWhatsapp className='wsap'/>
-            <h4>Whatsapp</h4>
-            <h3>0245051247</h3>
-            <a href='https://api.whatsapp.com/send?phone+233245051247'>Send a message</a>
+          <div className='github'>
+          <GoMarkGithub className='git'/>
+            
+            <h4>Github account</h4>
+            <h3>kafuiAllday</h3>
+            <a href='https://github.com/kafuiAllday' target='_blank'>Github code</a>
           </div>
           <div className='Mail'>
             <MdOutlineEmail className='email'/>
@@ -29,7 +30,7 @@ function Contact() {
             <input type='email' placeholder='Email' name='email' required/>
             <textarea name='message' rows='7' placeholder='Your message' required>
             </textarea>
-            <button type='submit' className='contact_btn'><a href='mail.kay4rikki@gmil.com'>Send message</a></button>  
+            <button type='submit' className='contact_btn'><a href='mail.kay4rikki@gmail.com'>Send message</a></button>  
           </form>
 
           </div> 

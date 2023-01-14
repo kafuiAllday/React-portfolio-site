@@ -25,7 +25,7 @@
     padding: .6rem;
 
 }
-.Wa{
+.github{
     border: 1px solid whitesmoke;
     padding: 1.3rem;
     border-radius: 1rem;
@@ -33,12 +33,25 @@
     margin: 0 auto;
     box-shadow: 0 0 8px rgba(0,0,0,0.3);
     color: midnightblue;
-    
+    background-color: #fff;
 }
-.Wa h3{
+.github h3{
     letter-spacing: .11rem;
+    color: rgb(34, 29, 29);
+    font-size: 1.5rem;
 }
 
+.github a{
+    font-size: 20px;
+    font-style: italic;
+    text-decoration: none;
+
+    color:rgb(34, 29, 29)
+} 
+.github a:hover{
+    text-decoration: underline;
+    
+}
 
 .Mail{
     border: 1px solid whitesmoke;
@@ -46,16 +59,18 @@
     box-shadow: 0 0 8px rgba(0,0,0,0.3);
     margin: 15px auto;
     padding: 1.3rem;
-    color: midnightblue;
+    color: rgb(231, 29, 29);
     font-size: 1.1rem;
     border-radius: 1rem;
     
 }
 .Mail h3{
     letter-spacing: .11rem;
+    color: midnightblue;
 }
 .Mail h4{
     letter-spacing: .12rem;
+    color: midnightblue;
 }
 
 form{
@@ -77,29 +92,22 @@ input,textarea{
     width: max-content;
     display: block;
     padding: 0.9rem 1.5rem;
-    border: 1px solid rgba(0,0,0,0.3);
+    border: 1px solid rgba(194, 181, 181, 0.3);
     border-radius: .4rem;
     color: white;
     font-size: 1.1rem;
 
 }
-.Wa .wsap{
-    font-size: 2.2rem;
-    color: green; 
-
-}
-
-.Wa a{
-    text-decoration: none;
-    color: midnightblue;
-    font-size: 1.2rem;
-    font-style: italic;
-}
-.Wa a:hover{
-    color: green;
-}
-.Mail .email{
+.github .git{
     font-size: 2.5rem;
+    color: rgb(34, 29, 29); 
+
+}
+
+
+
+.Mail .email{
+    font-size: 3.5rem;
 }
 .contact_btn a{
     text-decoration: none;
