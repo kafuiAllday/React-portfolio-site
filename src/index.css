@@ -69,9 +69,10 @@ header{
     height: 80vh;
     display: flex;
     justify-content: center;
-    align-items: left;
+    align-items: center;
     flex-direction: column;
     position: relative;
+    gap: 1rem;
 }
 
 .intro-text h1{
@@ -120,6 +121,24 @@ header{
     flex-wrap: wrap;
     margin-top: 40px;
  }
+
+ .intro-text a{
+   background-color: midnightblue;
+   text-align: center;
+   color: #fff;
+   text-decoration: none;
+   font-size: 2rem;
+   padding: 1rem;
+   width: fit-content;
+   border-radius: 8px;
+ }
+ .intro-text a:hover{
+   background-color: deepskyblue;
+   color: midnightblue;
+   border: 1px solid midnightblue;
+ }
+
+
  button.hero-butt{
    background-color: midnightblue;
    display: inline-block;
@@ -149,28 +168,6 @@ header{
  }
 
 
- 
- /*.cta_butt a:link{
-    display: inline-block;
-    width: max-content;
-    padding: 1.1rem;
-    background-color: rgba(0,0,0,0.03);
-    border: 1px solid midnightblue;
-    color: whitesmoke;
-    border-radius: 5px;
-    position: absolute;
-    left: 4%;
-    bottom: 30%;
-    font-size: 1.5rem;
-    font-weight: 400;
- }*/
- /*button:hover{
-    background-color: midnightblue;
-    color: deepskyblue;
-    cursor: pointer;
-    border: 1px solid deepskyblue;
-    
- }*/
  section > h1{
     font-size: 30px;
     padding-top: 50px;
@@ -239,17 +236,7 @@ hr{
    background-color: transparent;
    font-size: 1.6rem;
 }
-/*.cta_butt a{
-   color: whitesmoke;
-   text-decoration: none;
-   display: inline-block;
-   font-weight: 400;
-   
-}
-.cta_butt a:hover{
-   color: whitesmoke;
-   background-color: midnightblue;
-}*/
+
  
 
 @media(max-width: 1024px){
@@ -263,8 +250,13 @@ hr{
         margin-top: 10px;
 
      }
+     .intro-text a{
+      font-size: 1.5rem;
+   
+     }
+
      .intro-text{
-      margin: auto;
+      text-align: center;
      }
     
      .cta_butt{
@@ -364,6 +356,11 @@ button .contact_btn{
     .intro-text h1{
         font-size: 1.4rem;
         letter-spacing: 1.3px; 
+     }
+
+     .intro-text a{
+      font-size: 1.1rem;
+      margin: 0 auto;
      }
      .intro-text h2{
         

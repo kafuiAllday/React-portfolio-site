@@ -11,7 +11,8 @@ export default function Hero(){
             <div className="intro-text">
             <h1>Hello, I'm ERIC</h1>
             <h2>A FRONT END WEB DEVELOPER</h2>
-            <button className='hero-butt'><a href='#Contact'>Contact me</a></button>
+            <a href="#Contact">Contact me</a>
+        
     </div>
             
             
