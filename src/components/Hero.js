@@ -8,15 +8,11 @@ export default function Hero(){
         <header>
             <Navbar />
             
-            <div className="intro-text">
+            <div className="container intro-text">
             <h1>Hello, I'm ERIC</h1>
             <h2>A FRONT END WEB DEVELOPER</h2>
             <a href="#Contact">Contact me</a>
-        
-    </div>
-            
-            
-
+    </div>     
         </header>
     )
 } 

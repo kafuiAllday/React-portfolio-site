@@ -9,7 +9,7 @@ function Contact() {
       <section id='Contact' className='contact'>
         <h1>Contacts</h1>
         
-        <div className='contacts'>
+        <div className='container contacts'>
           <div className='socials'>
           <div className='github'>
           <GoMarkGithub className='git'/>

@@ -2,22 +2,21 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap:2rem;
-  background-color: white;
+  
   width: 75%;
   margin: 40px auto;
   height: auto;
   padding: 2rem;
 
 }
-section{
 
+section{
     height: max-content;
-    
 }
 .portfolio_item{
-    width: 400px;
-    height: 400px;
-    background-color: whitesmoke;
+    width: 300px;
+    height: 350px;
+    background-color: #fff;
     box-shadow: -15px 7px 30px rgba(0,0,0,0.2);
     border-radius: 1rem;
     padding: 1rem;
@@ -48,7 +47,7 @@ section{
     color: midnightblue;
     letter-spacing: .2rem;
     font-weight: 600;
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     
     
 }
@@ -74,35 +73,25 @@ section{
     display: inline-block;
 }
 
-.code-links{
-    display: flex;
-    justify-content: space-between;
-    background-color: green;
-    width: 100%;
-    align-items: center;
+
+
+
+@media(max-width: 1024px){
+    .container{
+        width: 80%;
+    }
+.portfolio_container{
+    grid-template-columns: repeat(2,1fr);
+   }
 }
-.github{
-    background-color: red;
+@media(max-width: 600px){
+    .container{
+        width: 90%;
+    }
+.portfolio_container{
+    grid-template-columns: 1fr;
+   }
 }
-
-
-
-
-
-
-/*button {
-    background-image: linear-gradient(to bottom right, midnightblue,deepskyblue);
-    padding: .8rem 1.4rem;
-    position: absolute;
-    margin: 4rem 10.5rem;
-    font-size: 1.1rem;
-    border-radius: 3px;
-    color: white;
-    border: none;    
-  
-} */
-
-
 
 
 

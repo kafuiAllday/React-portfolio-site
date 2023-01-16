@@ -5,27 +5,40 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
+    
 
 }
+
+body{
+   
+   background-image:linear-gradient(deepskyblue,midnightblue);
+}
+
+.container{
+   margin: 0 auto;
+   width: 75%;
+}
+
 nav{
     width: 100%;
-    padding: 20px;
+    padding: 1.2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 22px;
+    font-size: 1.6rem;
     box-shadow: 0 3px 7px rgba(0,0,0,0.3);
     background-color: midnightblue;
-
 
 }
 html{
    scroll-behavior: smooth;
+   font-size: 62.5%;
 }
 
 ::-webkit-scrollbar{
    display: none;
 }
+
 nav p{
     font-weight: 700;
     letter-spacing: 2px;
@@ -65,7 +78,7 @@ header{
 }
 
 .intro-text{
-    width: 80%;
+    
     height: 80vh;
     display: flex;
     justify-content: center;
@@ -92,35 +105,31 @@ header{
     
  }
  #Projects{
-    width: 100%;
+   width: 120rem;
     height: auto;
-
+    
+    margin: auto;
  }
+
  #Projects h1{
-    font-size: 2.5rem;
-    color: midnightblue;
+    font-size: 2.7rem;
+    color: #fff;
     text-align: center;
     letter-spacing: 3px;
-    font-weight: 400;
+    font-weight: 600;
     padding-top: 50px;
     text-transform: uppercase;
+    
  }
  #Projects hr{
    width: 5%;
    height: .25rem;
-   background-color: brown;
+   background-color: red;
    border: 0;
    margin-top: .5rem;
  }
  
- .proj-container{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 40px;
- }
+ 
 
  .intro-text a{
    background-color: midnightblue;
@@ -169,29 +178,30 @@ header{
 
 
  section > h1{
-    font-size: 30px;
+    font-size: 2.7rem;
     padding-top: 50px;
     letter-spacing: 3px;
-    color: midnightblue;
+    color: #fff;
  }
+
  .about{
    width: 80%;
    height: auto;
    text-align: center;
    margin: auto;
-   background-color: white;
    padding-bottom: 3rem;
 }
 
 
 .about h1{
-   color: midnightblue;
-   font-size: 2.5rem;
+   color: #fff;
+   font-size: 3rem;
    text-transform: uppercase;
    letter-spacing: .5rem;
-   font-weight: 300;
+   font-weight: 500;
    margin-bottom: 2rem;
 }
+
 hr{
    width: 87%;
    margin: 0 auto;
@@ -209,32 +219,36 @@ hr{
    flex-wrap: wrap;
    background-color: rgb(243,243,243);
    box-shadow: 0 5px 15px rgb(0,0,0,0.3);
+   border-radius: 10px;
 }
 .about-text{
    width: 40%;
    height: auto;
    margin: 3.5rem;
-   font-size: 1.3rem;
+   font-size: 1.5rem;
    font-weight: 500;
-   letter-spacing: .11rem;
+   letter-spacing: 0.1rem;
    text-align: left;
    color: midnightblue;
    background-color: rgb(243,243,243);
-   line-height: 1.9rem;
+   line-height: 2rem;
+   
 }
 .nav1{
    background-color: rgba(0,0,0,0.15);
-   padding: 1rem;
+   padding: 1.2rem;
    border-radius: 50px;
    box-shadow: 0 3px 7px rgb(0,0,0,0.3);
    margin: 0 auto;
    position: fixed;
    display: none;
    box-sizing: border-box;
+   width: 340px;
 }
 .nav1 a{
    background-color: transparent;
    font-size: 1.6rem;
+
 }
 
  
@@ -274,17 +288,19 @@ hr{
         
        
      }
-     .portfolio_container{
-      grid-template-columns: 1fr 1fr;
+     #Projects{
+      width: 100%;
      }
+    
+
      .about{
       padding: 10px;
       text-align: center;
    
  }
 .about-text{
-   width: 50%;
-   font-size: 1.0rem;
+   
+   font-size: 1.3rem;
    margin-top: 1.5rem;
    text-align: left;
    color: midnightblue;
@@ -327,6 +343,8 @@ nav a.active{
 .contacts{
    grid-template-columns: 1fr;
    gap: 2rem;
+   
+   
 }
 input,textarea{
    padding: .5rem;
@@ -350,6 +368,10 @@ button .contact_btn{
 
 
 @media(max-width: 600px){
+   .container{
+      width: 80%;
+   }
+
    .intro-text{
       text-align: center;
    }
@@ -360,7 +382,7 @@ button .contact_btn{
 
      .intro-text a{
       font-size: 1.1rem;
-      margin: 0 auto;
+      
      }
      .intro-text h2{
         
@@ -373,7 +395,7 @@ button .contact_btn{
      button{
         padding: 0.6rem;
         border-radius: 2.5px;
-        /*bottom: 30%;*/
+        
        
      }
      .portfolio_container{
@@ -384,11 +406,13 @@ button .contact_btn{
   }
   .about-text{
    width: 80%;
-   font-size: 0.75rem;
+   font-size: 1.1rem;
    padding-top: 1px;
    text-align: left;
    
+   
 }
+  
 .about h1{
    font-size: 1.7rem;
    margin-bottom: 5px;

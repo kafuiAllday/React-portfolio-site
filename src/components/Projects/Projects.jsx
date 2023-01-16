@@ -46,10 +46,12 @@ const data = [
 function Projects() {
   
   return (
-    <section id='Projects' className='proj'>
+    
+    <section id='Projects'>
+      
       <h1>Project</h1>
       <hr></hr>
-      <div className="portfolio_container">
+      <div className="container portfolio_container">
         {data.map(({id,Image,title,links}) => {
           return (
             <article className="portfolio_item" key={id}>
@@ -58,15 +60,20 @@ function Projects() {
             </div>
             <h3>{title}</h3>   
             
+            <div className='githubcode'>
+
               <a className='first_link' href={links}  target='_blank' >View Project</a>
-          
+            
+            </div>
           </article>
           )
         })
         
       } 
       </div>
-      </section>
+      
+      
+    </section> 
   )
 }
 

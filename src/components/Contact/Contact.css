@@ -2,15 +2,15 @@
     width: 100%;
     text-align: center;
     height: 60vh;
-    background-color: rgb(243,243,243);
+    
 }
 
 
 .contact h1{
-    color: midnightblue;
-    font-size: 2.5rem;
+    color: #fff;
+    font-size: 2.7rem;
     margin: 1rem;
-    font-weight: 400;
+    font-weight: 500;
     text-transform: uppercase;
 }
 .contacts{
@@ -25,28 +25,35 @@
     padding: .6rem;
 
 }
+ 
 .github{
-    border: 1px solid whitesmoke;
+    border: none;
     padding: 1.3rem;
     border-radius: 1rem;
     width: 300px;
+    font-weight: 500;
     margin: 0 auto;
     box-shadow: 0 0 8px rgba(0,0,0,0.3);
-    color: midnightblue;
-    background-color: #fff;
+
+    background-color: rgb(12, 12, 73);
 }
 .github h3{
     letter-spacing: .11rem;
-    color: rgb(34, 29, 29);
+    color: #fff;
     font-size: 1.5rem;
+    font-weight: 500;
+}
+.github h4{
+    color: #fff;
+    font-weight: 500;
 }
 
 .github a{
-    font-size: 20px;
+    font-size: 16px;
     font-style: italic;
     text-decoration: none;
-
-    color:rgb(34, 29, 29)
+    font-weight: 500;
+    color:#fff
 } 
 .github a:hover{
     text-decoration: underline;
@@ -54,23 +61,25 @@
 }
 
 .Mail{
-    border: 1px solid whitesmoke;
+    
     width: 300px;
     box-shadow: 0 0 8px rgba(0,0,0,0.3);
     margin: 15px auto;
     padding: 1.3rem;
-    color: rgb(231, 29, 29);
+    color: #fff;
     font-size: 1.1rem;
     border-radius: 1rem;
-    
+    background-color: rgb(12, 12, 73);
 }
 .Mail h3{
     letter-spacing: .11rem;
-    color: midnightblue;
+    color: #fff;
+    font-weight: 500;
 }
 .Mail h4{
     letter-spacing: .12rem;
-    color: midnightblue;
+    color: #fff;
+    font-weight: 500;
 }
 
 form{
@@ -100,7 +109,7 @@ input,textarea{
 }
 .github .git{
     font-size: 2.5rem;
-    color: rgb(34, 29, 29); 
+    color: #fff; 
 
 }
 
