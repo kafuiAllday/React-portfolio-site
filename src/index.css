@@ -306,6 +306,7 @@ hr{
    color: midnightblue;
    
 }
+
 .about h1{
    font-size: 2.0rem;
    font-weight: 400;
@@ -376,19 +377,21 @@ button .contact_btn{
       text-align: center;
    }
     .intro-text h1{
-        font-size: 1.4rem;
+        font-size: 2rem;
         letter-spacing: 1.3px; 
+        text-shadow: 2px 2px grey;
      }
 
      .intro-text a{
       font-size: 1.1rem;
+
       
      }
      .intro-text h2{
         
         font-size: 2.1rem;
         letter-spacing: 1.1px;
-        
+        text-shadow: 2px 2px grey;
      }
      #Projects hr{display: none;}
 
@@ -429,12 +432,7 @@ button .contact_btn{
 .contacts{
    width: 90%;
 }
-/*button.contact_btn{
-   font-size: .9rem;
-   position: absolute;
-   bottom: 2px
 
-}*/
 input,textarea{
    padding: .4rem;
    border-radius: 0.4rem;
