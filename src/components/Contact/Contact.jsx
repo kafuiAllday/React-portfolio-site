@@ -21,7 +21,7 @@ function Contact() {
           <div className='Mail'>
             <MdOutlineEmail className='email'/>
             <h4>Email</h4>
-            <h3>kay4rikki@gmail</h3>
+            <h3>kay4rikki@gmail.com</h3>
           
           </div>
           </div>
