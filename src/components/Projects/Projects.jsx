@@ -17,7 +17,7 @@ const data = [
     id:2,
     Image: IMG1,
     title: 'Expense Tracker',
-    links:'https://react-expense-tracker-41w16evvd-kafuiallday.vercel.app',
+    links:'https://react-expense-tracker-5f8s7g2x6-kafuiallday.vercel.app',
     
   },
   {
