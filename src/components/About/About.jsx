@@ -8,6 +8,7 @@ function About() {
     
         <section id='About' className='about'>
           <h1>About</h1>
+          
           <div className='mycontainer'>
             <div className='mypix'>
               <img src={img} alt='about pic'  />
